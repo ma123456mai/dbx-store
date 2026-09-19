@@ -12,6 +12,11 @@
       "autoUpdate": true
     },
     {
+      "repository": "jinpy666/dbx-plugin-files",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
+    },
+    {
       "repository": "jinpy666/dbx-plugin-ldap",
       "metadataPath": ".dbx-store.json",
       "autoUpdate": true
@@ -23,6 +28,16 @@
     },
     {
       "repository": "eryajf/dbx-plugin-k8s",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
+    },
+    {
+      "repository": "ragdollcb/waitWork",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
+    },
+    {
+      "repository": "yaoxinghuo/dbx-dev-tools",
       "metadataPath": ".dbx-store.json",
       "autoUpdate": true
     }
