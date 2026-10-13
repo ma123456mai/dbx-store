@@ -1,0 +1,68 @@
+{
+  "id": "cc-switch",
+  "name": "CC-SWITCH 配置导入",
+  "description": "从本机 CC-SWITCH 数据库只读导入 AI 提供商配置到 DBX。",
+  "publisher": "ma123456mai",
+  "verified": false,
+  "icon": "https://raw.githubusercontent.com/ma123456mai/dbx-cc-switch-plugin/v0.1.3/assets/plugin.png",
+  "tags": [
+    "ai",
+    "configuration",
+    "cc-switch"
+  ],
+  "permissions": [],
+  "source": "https://github.com/ma123456mai/dbx-cc-switch-plugin/tree/v0.1.3",
+  "homepage": "https://github.com/ma123456mai/dbx-cc-switch-plugin",
+  "license": "Apache-2.0",
+  "latestVersion": "0.1.3",
+  "versions": [
+    {
+      "version": "0.1.3",
+      "releasedAt": "2026-10-13T08:07:15.457Z",
+      "releaseNotes": "根据维护者反馈补充 CC-SWITCH 官方图标，并注册 DBX Store 自动同步信息。",
+      "artifacts": [
+        {
+          "target": "darwin-arm64",
+          "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.3/cc-switch-0.1.3-darwin-arm64.dbxp",
+          "sha256": "0f3590bb91f8b7da1668b161b75cf8fafcc7fdf3faae4c24c743a05f73c5fa70",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 1306035
+        },
+        {
+          "target": "darwin-x64",
+          "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.3/cc-switch-0.1.3-darwin-x64.dbxp",
+          "sha256": "2695e7b8bc421493b92fac71045985f2b65dc5f1c4cdb1dbc307201ed9e404e7",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 1378459
+        },
+        {
+          "target": "linux-arm64",
+          "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.3/cc-switch-0.1.3-linux-arm64.dbxp",
+          "sha256": "6b118575ac9d50791f25e08ceb4bcd5d7a2f7cd351e391e2edfea80415fc8bcb",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 1444532
+        },
+        {
+          "target": "linux-x64",
+          "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.3/cc-switch-0.1.3-linux-x64.dbxp",
+          "sha256": "4120d91931ac644577924012f7e658921b4e6fa5e017f9120f3714f6e7659831",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 1479457
+        },
+        {
+          "target": "windows-x64",
+          "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.3/cc-switch-0.1.3-windows-x64.dbxp",
+          "sha256": "1653ed4d4f38b905077979d5a5f92ed30d7894e962107a0811edeac3d0e92919",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 1269329
+        }
+      ]
+    }
+  ],
+  "localizations": {
+    "zh-CN": {
+      "name": "CC-SWITCH 配置导入",
+      "description": "将本机 CC-SWITCH 数据库中的 AI 提供商配置导入 DBX。"
+    }
+  }
+}
