@@ -152,7 +152,7 @@
       "autoUpdate": true
     },
     {
-      "repository": "ma123456mai/ai-config-importer",
+      "repository": "ma123456mai/dbx-cc-switch-plugin",
       "metadataPath": ".dbx-store.json",
       "autoUpdate": true
     },
@@ -168,6 +168,11 @@
     },
     {
       "repository": "Ezreal-byte/dbx-rocketmq-dashboard",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
+    },
+    {
+      "repository": "ma123456mai/ai-config-importer",
       "metadataPath": ".dbx-store.json",
       "autoUpdate": true
     }
