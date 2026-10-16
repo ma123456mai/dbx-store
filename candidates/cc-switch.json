@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "cc-switch",
+  "publisher": "ma123456mai",
+  "version": "0.1.5",
+  "name": "AI Config Importer",
+  "description": "Import AI provider configurations from CC-SWITCH or Magpie into DBX.",
+  "icon": "https://raw.githubusercontent.com/ma123456mai/ai-config-importer/v0.1.5/assets/plugin.png",
+  "tags": [
+    "ai",
+    "configuration",
+    "cc-switch"
+  ],
+  "permissions": [],
+  "source": "https://github.com/ma123456mai/ai-config-importer/tree/v0.1.5",
+  "homepage": "https://github.com/ma123456mai/ai-config-importer",
+  "license": "Apache-2.0",
+  "releaseNotes": "Hide source entries hidden in CC-SWITCH and Magpie. Import Magpie's live Codex model catalog with distinct model labels.",
+  "localizations": {
+    "zh-CN": {
+      "name": "AI 配置导入",
+      "description": "从 CC-SWITCH 或 Magpie 导入 AI 提供商配置到 DBX。"
+    }
+  },
+  "targets": [
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/ma123456mai/ai-config-importer/releases/download/v0.1.5/ai-config-importer-0.1.5-darwin-arm64.dbxp",
+      "sha256": "5abd8a929f655a4f6529f0818807123e117cdce1d4292513dee88dc0f4d7a69f",
+      "size": 1439150
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/ma123456mai/ai-config-importer/releases/download/v0.1.5/ai-config-importer-0.1.5-darwin-x64.dbxp",
+      "sha256": "50c90fbfdc3e75a31fc7710f9d6f88027338f7b1a72795ddb6b2fa9b854fc841",
+      "size": 1516124
+    },
+    {
+      "target": "linux-arm64",
+      "url": "https://github.com/ma123456mai/ai-config-importer/releases/download/v0.1.5/ai-config-importer-0.1.5-linux-arm64.dbxp",
+      "sha256": "ae55a9cca5f53fa1f58bd04e46328e94bb3e1ab8191b0b9a64b18e2aee6170e1",
+      "size": 1578434
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/ma123456mai/ai-config-importer/releases/download/v0.1.5/ai-config-importer-0.1.5-linux-x64.dbxp",
+      "sha256": "0713884b75ee03c0d2feaa05e2bb78af565fde05e62e6481d7d98087d068fd57",
+      "size": 1616790
+    },
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/ma123456mai/ai-config-importer/releases/download/v0.1.5/ai-config-importer-0.1.5-windows-x64.dbxp",
+      "sha256": "588d2835332ff6727069ac7b0989b4ccd8ecf3c514a44f4cec549cef44a5b382",
+      "size": 1417397
+    }
+  ]
+}
