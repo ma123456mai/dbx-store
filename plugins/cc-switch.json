@@ -1,20 +1,20 @@
 {
   "id": "cc-switch",
-  "name": "CC-SWITCH 配置导入",
-  "description": "从本机 CC-SWITCH 数据库只读导入 AI 提供商配置到 DBX。",
+  "name": "AI Config Importer",
+  "description": "Import AI provider configurations from CC-SWITCH or Magpie into DBX.",
   "publisher": "ma123456mai",
   "verified": false,
-  "icon": "https://raw.githubusercontent.com/ma123456mai/dbx-cc-switch-plugin/v0.1.3/assets/plugin.png",
+  "icon": "https://raw.githubusercontent.com/ma123456mai/ai-config-importer/v0.1.5/assets/plugin.png",
   "tags": [
     "ai",
     "configuration",
     "cc-switch"
   ],
   "permissions": [],
-  "source": "https://github.com/ma123456mai/dbx-cc-switch-plugin/tree/v0.1.3",
-  "homepage": "https://github.com/ma123456mai/dbx-cc-switch-plugin",
+  "source": "https://github.com/ma123456mai/ai-config-importer/tree/v0.1.5",
+  "homepage": "https://github.com/ma123456mai/ai-config-importer",
   "license": "Apache-2.0",
-  "latestVersion": "0.1.3",
+  "latestVersion": "0.1.5",
   "versions": [
     {
       "version": "0.1.3",
@@ -57,12 +57,54 @@
           "size": 1269329
         }
       ]
+    },
+    {
+      "version": "0.1.5",
+      "releasedAt": "2026-10-16T09:39:19.812Z",
+      "releaseNotes": "Hide source entries hidden in CC-SWITCH and Magpie. Import Magpie's live Codex model catalog with distinct model labels.",
+      "artifacts": [
+        {
+          "target": "darwin-arm64",
+          "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.5/cc-switch-0.1.5-darwin-arm64.dbxp",
+          "sha256": "7508239aac18c5c0784dc7f96a9032ea25c9c650b20314b43a81b688e30f04da",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 1439679
+        },
+        {
+          "target": "darwin-x64",
+          "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.5/cc-switch-0.1.5-darwin-x64.dbxp",
+          "sha256": "d96484b1a750a3ef0a23f9bcf9b06bab85b1fa14727a193e5ba3c49936290dd5",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 1516649
+        },
+        {
+          "target": "linux-arm64",
+          "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.5/cc-switch-0.1.5-linux-arm64.dbxp",
+          "sha256": "c2054f7314329f726336fc928ff664539cf6cc25691e3bcae12703853152f130",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 1578960
+        },
+        {
+          "target": "linux-x64",
+          "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.5/cc-switch-0.1.5-linux-x64.dbxp",
+          "sha256": "d9a6524886dc1f6e55846dad82ffa14b550494bda2d40114da80381931e257a7",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 1617315
+        },
+        {
+          "target": "windows-x64",
+          "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.5/cc-switch-0.1.5-windows-x64.dbxp",
+          "sha256": "6029c0e19fce36aece4ee9168c432a81c0884f575eeb0aa911f980e6bd912f93",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 1417927
+        }
+      ]
     }
   ],
   "localizations": {
     "zh-CN": {
-      "name": "CC-SWITCH 配置导入",
-      "description": "将本机 CC-SWITCH 数据库中的 AI 提供商配置导入 DBX。"
+      "name": "AI 配置导入",
+      "description": "从 CC-SWITCH 或 Magpie 导入 AI 提供商配置到 DBX。"
     }
   }
 }
